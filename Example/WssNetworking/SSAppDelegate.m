@@ -7,12 +7,23 @@
 //
 
 #import "SSAppDelegate.h"
+#import "WssNetworking.h"
 
 @implementation SSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    WssNetworking *net = WssNetworking.new;
+    
+    [net doSomethng];
+    
+    [net POSTWithURLString:@"" parameters:@{} success:^(id  _Nonnull responseObject) {
+        NSLog(@"success --");
+    } failure:^(id  _Nonnull error) {
+        NSLog(@"failure --");
+    }];
+    
     return YES;
 }
 
