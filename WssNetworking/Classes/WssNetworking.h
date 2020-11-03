@@ -12,6 +12,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface WssNetworking : NSObject
 
+- (void)doSomethng;
+
+@property (strong,nonatomic) NSURLSessionDataTask *task;
+
+- (NSURLSessionDataTask *)POSTWithURLString:(NSString *)URLString
+                                 parameters:(id)parameters
+                                    success:(void (^)(id responseObject))success
+                                    failure:(void (^)(id error))failure;
+
 @end
 
 NS_ASSUME_NONNULL_END
