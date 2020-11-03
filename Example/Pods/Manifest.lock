@@ -28,7 +28,7 @@ PODS:
   - SDWebImage (5.9.4):
     - SDWebImage/Core (= 5.9.4)
   - SDWebImage/Core (5.9.4)
-  - WssNetworking (0.1.0):
+  - WssNetworking (0.0.1):
     - AFNetworking (~> 2.3)
     - SDWebImage
 
@@ -50,7 +50,7 @@ SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
-  WssNetworking: 69ed7c8f8d576925cf70379391a9aaa5593d3e6e
+  WssNetworking: 504d81a7ee0400465a11eb593facd6f17f8cf7ce
 
 PODFILE CHECKSUM: 3e3b4ca88b9c35b52ef609c35b2ae248b7b4bed4
 
